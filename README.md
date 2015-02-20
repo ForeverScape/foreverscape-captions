@@ -54,7 +54,7 @@ This project is recruitment-into-software development. The emphasis is not on pa
 4) As an admin, I want to be able to list all email addresses/accounts for all submissions ever.
 
 6) A URL to each contest should be unique (can just be an input field for now since we don't know the frequency), so past winners and captions pages can be deep linked.
-       For example: http://contests.foreverscape.com/captions/2015/02/ where only the URL after 'captions/' is editable, i.e. the URL input field is a relative URL. 
+       For example: http://contests.foreverscape.com/captions/2015/02/ where only the URL after 'captions/' is editable, i.e. the URL input field is a relative URL, not the absolute URL in the full example. 
 
 
 7) As the admin, I want to be able to flag a contest as 'active' (forcing all other contests to be 'inactive'). Hint: status field on contest table in the DB.
