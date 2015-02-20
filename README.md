@@ -62,6 +62,15 @@ Caption Contest App
 
 <h2>Helpful Links</h2>
 
+<h3>dev tools</h3>
+to work on HTML files, I would suggest Submlime Text. http://www.sublimetext.com/
+
+to work with PHP files, get Phpcs plubin for Sublime. http://neverstopbuilding.com/sublime-plugins-for-php
+
+to work with version control, get github desktop (not my first choice). I'm not sure the best for ios.  Try this one https://www.atlassian.com/software/sourcetree/overview
+
+<h3>learning</h3>
+
 HTML for beginners: http://htmldog.com/guides/html/beginner/
 You will notice this readme file uses HTML markup to a limited extent.
 
@@ -73,4 +82,4 @@ The concept of Routing describes the ability to deep link to HTML/PHP pages that
 
 additionally, it allows us to hide the .php at the end of URLs without having to make a physical directory some-directory/index.php
 
-(index.html and index.php are configured to sho up without the filename at all, in the root of a directory). 
+(index.html and index.php are configured to sho up without the filename at all, in the root of a directory).
