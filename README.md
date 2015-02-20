@@ -26,7 +26,7 @@ This project is recruitment-into-software development. The emphasis is not on pa
 
 5) As a user, i am required to submit my email address. The user will be presented a clear privacy policy that says we never share information (but might send updates regarding the ForeverScape that they can unsubscribe to, forever, at any time).
 
-6) As a user, i'd like to click on a caption to upvote it. This example is not voting, but it's star rating, which is similar. Instead of averaging, we will track total rating points....
+6) As a user, i'd like to click on a caption to upvote it. The vote should be validated by the server, and upon "success" response from the server, the order/vote should be updated immediately. (USE jquery + ajax).  This example is not voting, but it's star rating, which is similar. Instead of averaging, we will track total rating points....
         http://code.tutsplus.com/tutorials/building-a-5-star-rating-system-with-jquery-ajax-and-php--net-11541
 
 7) As a user the vote up and down button should be visible, but a warning is given if the user is not logged in.
