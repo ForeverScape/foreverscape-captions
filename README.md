@@ -3,7 +3,6 @@ Caption Contest App
 
 
 
-
 <h2>Stories</h2>
 
 <h3>Developer Stories</h3>
@@ -44,8 +43,8 @@ Caption Contest App
 2) As an admin, I want to type a page number into a input field and save that as the current contest number.
     *bonus, show the image that is entered by editing the URL string with javascript:
 
-        ```html
-            <img src="'https://d2zwcujesf1bgv.cloudfront.net/prod/v13/images/tiny_preload_size/forever_' + number + '.jpg' ;"/>
+        ```
+            <img src="'https://d2zwcujesf1bgv.cloudfront.net/prod/v13/images/tiny_preload_size/forever_' + number + '.jpg' "/>
         ```
 
 3) As an admin, I want to save my selection to the database.
@@ -53,10 +52,25 @@ Caption Contest App
 4) As an admin, I want to be able to list all email addresses/accounts for all submissions ever.
 
 6) A URL to each contest should be unique (can just be an input field for now since we don't know the frequency), so past winners and captions pages can be deep linked.
-    ```
-    For example: http://contests.foreverscape.com/captios/2015/02/
-    ```
+       For example: http://contests.foreverscape.com/captios/2015/02/
+
 
 7) As the admin, I want to be able to flag a contest as 'active' (forcing all other contests to be 'inactive'). Hint: status field on contest table in the DB.
 
 8) As the admin, I want to be able to advertise the winner and their caption image combination on the inactive contest page.
+
+
+<h2>Helpful Links</h2>
+
+HTML for beginners: http://htmldog.com/guides/html/beginner/
+You will notice this readme file uses HTML markup to a limited extent.
+
+PHP for the absolute beginner: http://devzone.zend.com/6/php-101-php-for-the-absolute-beginner/
+
+The concept of Routing describes the ability to deep link to HTML/PHP pages that "don't actually exist." Instead of building this feature from scratch, maybe a look at this comparison for a lightweight php framework to accomplish this:
+
+ http://www.aljtmedia.com/blog/creating-a-php-rest-routing-class-for-your-application/
+
+additionally, it allows us to hide the .php at the end of URLs without having to make a physical directory some-directory/index.php
+
+(index.html and index.php are configured to sho up without the filename at all, in the root of a directory). 
