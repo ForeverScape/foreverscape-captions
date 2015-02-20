@@ -1,6 +1,8 @@
 # foreverscape-captions
 Caption Contest App
 
+This project is recruitment-into-software development. The emphasis is not on particular language or technology, but building an app from scratch to learn. For ease, developer will be set up with a PHP server and a database they can add custom tables to.
+
 
 
 <h2>Stories</h2>
