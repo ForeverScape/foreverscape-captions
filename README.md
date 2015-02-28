@@ -65,13 +65,12 @@ This project is recruitment-into-software development. The emphasis is not on pa
 <h2>Helpful Links</h2>
 
 <h3>dev tools</h3>
-to work on HTML files, I would suggest Submlime Text. http://www.sublimetext.com/
+to work on HTML files, I would suggest Submlime Text. http://www.sublimetext.com/ GOT IT
 
 to work with version control, get github desktop (not my first choice). I'm not sure the best for ios.  
-Or the official Github client: https://mac.github.com/
-Or This one https://www.atlassian.com/software/sourcetree/overview
+Or the official Github client: https://mac.github.com/ GOT IT
 
-An FTP client like cyberduck: http://cyberduck.en.softonic.com/mac
+An FTP client like cyberduck: http://cyberduck.en.softonic.com/mac GOT IT
 
 <h3>learning</h3>
 
